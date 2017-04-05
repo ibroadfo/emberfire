@@ -11,7 +11,7 @@ import Post from 'dummy/models/post';
 import WithDate from 'dummy/models/with-date';
 import Comment from 'dummy/models/comment';
 import User from 'dummy/models/user';
-import assign from 'lodash/object/assign';
+import assign from 'lodash/assign';
 
 describeModule(
   'emberfire@serializer:firebase',

@@ -11,9 +11,7 @@ addons:
 
 sudo: false
 
-cache:
-  directories:
-    - node_modules
+cache: false
 
 env:
   - EMBER_TRY_SCENARIO=ember-data-2.5.x
